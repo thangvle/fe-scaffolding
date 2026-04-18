@@ -2,7 +2,7 @@ function makeThrottle<I>(callback: (...args: I[]) => void, timeout: number = 1_0
   return callback
 }
 
-export function ThrottleTest() {
+export function ThrottleProblem() {
   const onClick = () => {
     console.log('clicked')
   }

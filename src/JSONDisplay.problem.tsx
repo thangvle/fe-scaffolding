@@ -96,7 +96,7 @@ function JSONDisplay({ data }: { data: Node }) {
   return <pre>{JSON.stringify(data, null, 2)}</pre>
 }
 
-export function JSONDisplayTest() {
+export function JSONDisplayProblem() {
   return (
     <div>
       <JSONDisplay data={data} />

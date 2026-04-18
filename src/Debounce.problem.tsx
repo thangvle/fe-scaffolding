@@ -2,7 +2,7 @@ function makeDebounced<I>(callback: (...args: I[]) => void, timeout: number = 50
   return callback
 }
 
-export function DebounceTest() {
+export function DebounceProblem() {
   const onClick = () => {
     console.log('clicked')
   }
